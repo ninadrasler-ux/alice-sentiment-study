@@ -1,12 +1,14 @@
 ## Sentence‑Level Sentiment Analysis of *Alice’s Adventures in Wonderland*
 
----
-
 ### A comparison between chapter‑level and sentence‑level VADER results
+
+---
 
 This project extends my earlier sentiment analysis of *Alice’s Adventures in Wonderland* by shifting from **chapter‑level** to **sentence‑level** evaluation. The goal was to examine whether a finer segmentation produces more balanced and interpretable sentiment patterns when using VADER — a tool originally designed for short, informal online text.
 
 ### ✨ Why sentence‑level analysis?
+
+---
 
 In the previous chapter‑level analysis, VADER assigned **unexpectedly strong positive sentiment** to entire chapters. This raised a methodological question:
 
@@ -15,6 +17,8 @@ In the previous chapter‑level analysis, VADER assigned **unexpectedly strong p
 To explore this, I re‑processed the text at the **sentence level**, allowing sentiment to be evaluated on smaller, more coherent units. This approach captures emotional variation within scenes rather than flattening entire chapters into a single score.
 
 ### ⚙️ Pre‑processing challenges
+
+---
 
 During tokenization, the sentence tokenizer misinterpreted **chapter numbers and chapter titles** as standalone sentences. This inflated the sentence count and distorted the sentiment distribution.
 
@@ -26,6 +30,8 @@ To correct this, I removed:
 After cleaning, the text was re‑tokenized, ensuring that only narrative sentences were analyzed.
 
 ### 📊 Results
+
+---
 
 **Sentence-level distribution**
 
@@ -45,6 +51,8 @@ After cleaning, the text was re‑tokenized, ensuring that only narrative senten
 
 
 ### 🧠 Interpretation
+
+---
 
 The findings clearly show that:
 
