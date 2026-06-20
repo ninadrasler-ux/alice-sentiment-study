@@ -41,7 +41,7 @@ After cleaning, the text was re‑tokenized, ensuring that only narrative senten
 | *A Mad Tea-Party* | 27 | 28 | 41 | 96 |
 | *The Queen’s Croquet-Ground* | 31 | 24 | 24 | 79 |
 
-**Chapter‑level results**
+**Comparison with chapter‑level results**
 
 | Chapter | Chapter‑level VADER (compound) | Sentence‑level pattern | Interpretation |
 | --- | --- | --- | --- |
