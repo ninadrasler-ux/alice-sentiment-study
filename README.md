@@ -1,8 +1,8 @@
 ## Sentence‑Level Sentiment Analysis of *Alice’s Adventures in Wonderland*
 
-### A comparison between chapter‑level and sentence‑level VADER results
-
 ---
+
+### A comparison between chapter‑level and sentence‑level VADER results
 
 This project extends my earlier sentiment analysis of *Alice’s Adventures in Wonderland* by shifting from **chapter‑level** to **sentence‑level** evaluation. The goal was to examine whether a finer segmentation produces more balanced and interpretable sentiment patterns when using VADER — a tool originally designed for short, informal online text.
 
