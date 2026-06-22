@@ -49,6 +49,12 @@ After cleaning, the text was re‑tokenized, ensuring that only narrative senten
 | *A Mad Tea-Party* | 0.9562 | Balanced across all three categories | Captures chaotic, dialogue-heavy emotional shifts |
 | *The Queen’s Croquet-Ground* | 0.9970 | Mixed, slightly positive | More realistic distribution than the uniformly positive chapter-level score |
 
+---
+
+The chart compares sentiment scores calculated at the chapter level with those calculated at the sentence level, showing how overall emotional tone shifts across the book:
+
+![Sentiment comparison](images/sentiment_comparison.png)
+
 
 ### 🧠 Interpretation
 
