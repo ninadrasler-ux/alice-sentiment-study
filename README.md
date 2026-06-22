@@ -43,11 +43,11 @@ After cleaning, the text was re‑tokenized, ensuring that only narrative senten
 
 **Comparison with chapter‑level results**
 
-| Chapter | Chapter‑level VADER (compound) | Sentence‑level pattern | Interpretation |
+| Chapter | Chapter‑level VADER (compound) | Sentence‑level VADER (average sentiment) | Interpretation |
 | --- | --- | --- | --- |
-| *Down the Rabbit-Hole* | 0.9977 | Mixed, slightly positive | Sentence-level avoids extreme positivity and reflects tonal variation |
-| *A Mad Tea-Party* | 0.9562 | Balanced across all three categories | Captures chaotic, dialogue-heavy emotional shifts |
-| *The Queen’s Croquet-Ground* | 0.9970 | Mixed, slightly positive | More realistic distribution than the uniformly positive chapter-level score |
+| *Down the Rabbit-Hole* | 0.9977 | 0.0978 | Sentence-level avoids extreme positivity and reflects tonal variation |
+| *A Mad Tea-Party* | 0.9562 | 0.0055 | Captures chaotic, dialogue-heavy emotional shifts |
+| *The Queen’s Croquet-Ground* | 0.9970 | 0.0402 | More realistic distribution than the uniformly positive chapter-level score |
 
 ---
 
